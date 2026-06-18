@@ -2,32 +2,75 @@
 
 ## Objective
 
-Identify open ports and services on the local machine.
+Identify active hosts and enumerate services within an authorized lab environment.
 
-## Commands Used
-
-```bash
-nmap localhost
-nmap -sV localhost
-```
-
-## Results
-
-No open ports were detected on localhost. All 1000 default TCP ports were closed.
-
-## Observations
-
-The scan indicated that no active services were listening on the target system.
-
-## Learning Outcome
-
-- Learned how to perform a basic Nmap scan.
-- Learned service version detection using `-sV`.
-- Understood how Nmap reports closed ports.
+---
 
 ## Tools Used
 
 - Kali Linux
 - Nmap
 
-⚠️ Performed in an authorized lab environment.
+---
+
+## Commands Used
+
+### Basic Scan
+
+```bash
+nmap localhost
+```
+
+### Host Discovery
+
+```bash
+nmap -sn 192.168.56.1
+```
+
+### Basic Port Scan
+
+```bash
+nmap 192.168.56.1
+```
+
+### Service Version Detection
+
+```bash
+nmap -sV 192.168.56.1
+```
+
+---
+
+## Methodology
+
+A series of Nmap scans were performed to identify live hosts, open ports, and running services.
+
+---
+
+## Findings
+
+- Host discovery successfully identified the Windows host.
+- Basic port scanning was performed against the target.
+- Service version detection was executed to enumerate running services.
+
+---
+
+## Screenshots
+
+- scan1.png
+- scan2-host-discovery.png
+- scan3-basic-port-scan.png
+- scan4-service-detection.png
+
+---
+
+## Learning Outcome
+
+- Learned host discovery using Nmap.
+- Understood basic port scanning.
+- Learned service version detection using `-sV`.
+- Practiced reconnaissance techniques in an authorized lab environment.
+
+---
+
+⚠️ All activities were performed in a controlled lab environment.
