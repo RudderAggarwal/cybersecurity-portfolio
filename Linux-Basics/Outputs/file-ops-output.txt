@@ -1,0 +1,10 @@
+file1.txt
+file-ops-output.txt
+file1.txt
+file2.txt
+file-ops-output.txt
+file1.txt
+file-ops-output.txt
+newfile.txt
+file1.txt
+file-ops-output.txt
