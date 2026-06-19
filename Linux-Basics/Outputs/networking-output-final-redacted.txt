@@ -1,0 +1,14 @@
+Interface-1
+
+Interface-2
+
+Docker-Interface
+
+LISTEN 127.0.0.1:38133
+
+PING google.com
+
+Hostname: <REDACTED>
+
+Addresses:
+<REDACTED>
