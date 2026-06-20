@@ -1,0 +1,11 @@
+Server: <REDACTED>
+Address: <REDACTED>
+
+google.com
+Resolved successfully
+
+github.com
+Resolved successfully
+
+openai.com
+Resolved successfully
